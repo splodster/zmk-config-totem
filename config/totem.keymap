@@ -68,6 +68,26 @@
             bindings = <&kp ASTERISK>;
             key-positions = <7 17>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 1>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <2 3>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 7>;
+        };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
