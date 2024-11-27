@@ -24,16 +24,19 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
+        excl-sym {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <0 10>;
         };
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 0>;
+        at-sym {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <1 11>;
+        };
+
+        hash-sym {
+            bindings = <&kp HASH>;
+            key-positions = <2 12>;
         };
     };
 
