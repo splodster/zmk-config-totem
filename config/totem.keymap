@@ -48,6 +48,26 @@
             bindings = <&kp PERCENT>;
             key-positions = <4 14>;
         };
+
+        caret-sym {
+            bindings = <&kp CARET>;
+            key-positions = <5 15>;
+        };
+
+        ampersand-sym {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <18 8>;
+        };
+
+        plus-sym {
+            bindings = <&kp PLUS>;
+            key-positions = <6 16>;
+        };
+
+        asterisk-sym {
+            bindings = <&kp ASTERISK>;
+            key-positions = <7 17>;
+        };
     };
 
     macros {
