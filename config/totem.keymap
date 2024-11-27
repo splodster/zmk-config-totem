@@ -38,6 +38,16 @@
             bindings = <&kp HASH>;
             key-positions = <2 12>;
         };
+
+        dollar-sym {
+            bindings = <&kp DOLLAR>;
+            key-positions = <3 13>;
+        };
+
+        percent-sym {
+            bindings = <&kp PERCENT>;
+            key-positions = <4 14>;
+        };
     };
 
     macros {
